@@ -1,23 +1,18 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Hive-CDN/hivecdn/main/assets/banner.png" alt="HiveCDN Banner" width="100%"/>
+<img src="https://raw.githubusercontent.com/doolynorth/doolynorth/main/assets/doolynorth-x-logo.png" alt="doolynorth Logo" width="220"/>
 
-<br/>
-<br/>
-
-<img src="https://raw.githubusercontent.com/Hive-CDN/hivecdn/main/assets/logo.png" alt="HiveCDN Logo" width="90"/>
-
-# HiveCDN
+# doolynorth
 
 **High-Performance Content Delivery Network**
 
-[![Website](https://img.shields.io/badge/🌐_Live_Platform-hivecdn.xyz-F0A202?style=for-the-badge&logoColor=white)](http://hivecdn.xyz)
-[![Status](https://img.shields.io/badge/Status-Live-22C55E?style=for-the-badge)](http://hivecdn.xyz)
+[![Website](https://img.shields.io/badge/🌐_Live_Platform-doolynorth.online-F0A202?style=for-the-badge&logoColor=white)](https://doolynorth.online)
+[![Status](https://img.shields.io/badge/Status-Live-22C55E?style=for-the-badge)](https://doolynorth.online)
 [![License](https://img.shields.io/badge/License-MIT-3B82F6?style=for-the-badge)](LICENSE)
 
-[![Stars](https://img.shields.io/github/stars/Hive-CDN/hivecdn?style=flat-square&color=F0A202&label=⭐%20Stars)](https://github.com/Hive-CDN/hivecdn/stargazers)
-[![Forks](https://img.shields.io/github/forks/Hive-CDN/hivecdn?style=flat-square&color=F0A202&label=🍴%20Forks)](https://github.com/Hive-CDN/hivecdn/network)
-[![Watchers](https://img.shields.io/github/watchers/Hive-CDN/hivecdn?style=flat-square&color=F0A202&label=👁️%20Watchers)](https://github.com/Hive-CDN/hivecdn/watchers)
+[![Stars](https://img.shields.io/github/stars/doolynorth/doolynorth?style=flat-square&color=F0A202&label=⭐%20Stars)](https://github.com/doolynorth/doolynorth/stargazers)
+[![Forks](https://img.shields.io/github/forks/doolynorth/doolynorth?style=flat-square&color=F0A202&label=🍴%20Forks)](https://github.com/doolynorth/doolynorth/network)
+[![Watchers](https://img.shields.io/github/watchers/doolynorth/doolynorth?style=flat-square&color=F0A202&label=👁️%20Watchers)](https://github.com/doolynorth/doolynorth/watchers)
 
 <br/>
 
@@ -25,7 +20,7 @@
 
 <br/>
 
-**[🚀 Try the Platform](http://hivecdn.xyz)** &nbsp;·&nbsp;
+**[🚀 Try the Platform](https://doolynorth.online)** &nbsp;·&nbsp;
 **[📖 Documentation](#-documentation)** &nbsp;·&nbsp;
 **[⚙️ How It Works](#️-how-it-works)** &nbsp;·&nbsp;
 **[🤝 Contributing](#-contributing)**
@@ -34,16 +29,16 @@
 
 ---
 
-## 🌍 What is HiveCDN?
+## 🌍 What is doolynorth?
 
-**HiveCDN** is a next-generation Content Delivery Network built for the modern web. Like a beehive — where every cell works in perfect coordination — HiveCDN distributes your content across a global network of nodes, ensuring **sub-millisecond delivery** anywhere in the world.
+**doolynorth** is a next-generation Content Delivery Network built for the modern web. Like a beehive — where every cell works in perfect coordination — doolynorth distributes your content across a global network of nodes, ensuring **sub-millisecond delivery** anywhere in the world.
 
-Whether you're streaming video, serving assets, or powering a global SaaS application, HiveCDN handles the complexity so you don't have to.
+Whether you're streaming video, serving assets, or powering a global SaaS application, doolynorth handles the complexity so you don't have to.
 
 ```
-User in Tokyo ──► HiveCDN Edge Node (Asia) ──► Your Content in <10ms
-User in Berlin ──► HiveCDN Edge Node (EU) ──► Your Content in <8ms
-User in NYC ──► HiveCDN Edge Node (US-East) ──► Your Content in <5ms
+User in Tokyo ──► doolynorth Edge Node (Asia) ──► Your Content in <10ms
+User in Berlin ──► doolynorth Edge Node (EU) ──► Your Content in <8ms
+User in NYC ──► doolynorth Edge Node (US-East) ──► Your Content in <5ms
 ```
 
 ---
@@ -67,11 +62,11 @@ User in NYC ──► HiveCDN Edge Node (US-East) ──► Your Content in <5ms
 
 <div align="center">
 
-### ▶️ [Watch Live Demo → hivecdn.xyz](http://hivecdn.xyz)
+### ▶️ [Watch Live Demo → doolynorth.online](https://doolynorth.online)
 
 </div>
 
-Experience HiveCDN in action — configure your delivery settings, see real-time latency maps, and watch requests route to the nearest edge node live on the platform.
+Experience doolynorth in action — configure your delivery settings, see real-time latency maps, and watch requests route to the nearest edge node live on the platform.
 
 ---
 
@@ -83,7 +78,7 @@ Experience HiveCDN in action — configure your delivery settings, see real-time
                          └────────────────┬────────────────┘
                                           │
                          ┌────────────────▼────────────────┐
-                         │        HiveCDN Backbone          │
+                         │        doolynorth Backbone          │
                          │   (Anycast routing + BGP mesh)   │
                          └──┬──────────┬──────────┬────────┘
                             │          │          │
@@ -97,7 +92,7 @@ Experience HiveCDN in action — configure your delivery settings, see real-time
                └────────────────────────────────────────────────────┘
 ```
 
-1. **Request arrives** — user's DNS resolves to the nearest HiveCDN PoP via Anycast
+1. **Request arrives** — user's DNS resolves to the nearest doolynorth PoP via Anycast
 2. **Cache check** — edge node serves cached content instantly if available
 3. **Origin fetch** — on cache miss, content is pulled from origin and cached at edge
 4. **Smart warming** — ML model predicts popular content and pre-caches it proactively
@@ -111,13 +106,13 @@ Experience HiveCDN in action — configure your delivery settings, see real-time
 
 **Step 1 — Point your DNS**
 ```dns
-; Replace your A record / CNAME with HiveCDN's entry point
-your-domain.com.    CNAME    cdn.hivecdn.xyz.
+; Replace your A record / CNAME with doolynorth's entry point
+your-domain.com.    CNAME    cdn.doolynorth.online.
 ```
 
 **Step 2 — Configure your origin**
 ```yaml
-# hivecdn.yml
+# doolynorth.yml
 origin:
   url: https://your-origin-server.com
   timeout: 30s
@@ -137,21 +132,21 @@ rules:
 
 **Step 3 — Go live**
 ```bash
-curl -X POST https://api.hivecdn.xyz/v1/deploy \
+curl -X POST https://api.doolynorth.online/v1/deploy \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
-  -d '{"config": "hivecdn.yml"}'
+  -d '{"config": "doolynorth.yml"}'
 ```
 
 ### SDKs
 
 | Language | Package | Status |
 |----------|---------|--------|
-| JavaScript / Node.js | `npm install hivecdn` | ✅ Stable |
-| Python | `pip install hivecdn` | ✅ Stable |
-| Go | `go get github.com/Hive-CDN/hivecdn-go` | ✅ Stable |
-| Scala / JVM | `io.hivecdn:client:1.0` | ✅ Stable |
-| Rust | `cargo add hivecdn` | 🔄 Beta |
+| JavaScript / Node.js | `npm install doolynorth` | ✅ Stable |
+| Python | `pip install doolynorth` | ✅ Stable |
+| Go | `go get github.com/doolynorth/doolynorth-go` | ✅ Stable |
+| Scala / JVM | `io.doolynorth:client:1.0` | ✅ Stable |
+| Rust | `cargo add doolynorth` | 🔄 Beta |
 
 ---
 
@@ -173,7 +168,7 @@ curl -X POST https://api.hivecdn.xyz/v1/deploy \
 
 ## 🏗️ Architecture
 
-HiveCDN is built on a **distributed systems** foundation:
+doolynorth is built on a **distributed systems** foundation:
 
 - **Routing layer** — BGP Anycast across 100+ PoPs for geo-steering
 - **Cache layer** — Multi-tier LRU/LFU cache with Bloom filters for negative caching
@@ -187,11 +182,11 @@ HiveCDN is built on a **distributed systems** foundation:
 
 | Resource | Link |
 |----------|------|
-| 🌐 Platform | [hivecdn.xyz](http://hivecdn.xyz) |
-| 📘 API Reference | [hivecdn.xyz/docs/api](http://hivecdn.xyz/docs/api) |
-| 🚀 Quick Start | [hivecdn.xyz/docs/quickstart](http://hivecdn.xyz/docs/quickstart) |
-| 🔧 Configuration | [hivecdn.xyz/docs/config](http://hivecdn.xyz/docs/config) |
-| 📊 Status Page | [status.hivecdn.xyz](http://status.hivecdn.xyz) |
+| 🌐 Platform | [doolynorth.online](https://doolynorth.online) |
+| 📘 API Reference | [doolynorth.online/docs/api](https://doolynorth.online/docs/api) |
+| 🚀 Quick Start | [doolynorth.online/docs/quickstart](https://doolynorth.online/docs/quickstart) |
+| 🔧 Configuration | [doolynorth.online/docs/config](https://doolynorth.online/docs/config) |
+| 📊 Status Page | [status.doolynorth.online](http://status.doolynorth.online) |
 
 ---
 
@@ -201,8 +196,8 @@ We welcome contributions of all kinds — bug fixes, features, docs, and perform
 
 ```bash
 # Fork → clone → branch
-git clone https://github.com/Hive-CDN/hivecdn.git
-cd hivecdn
+git clone https://github.com/doolynorth/doolynorth.git
+cd doolynorth
 git checkout -b feature/my-improvement
 
 # Make changes, then
@@ -219,7 +214,7 @@ Please follow [Conventional Commits](https://www.conventionalcommits.org/) and r
 
 Found a vulnerability? Please disclose responsibly:
 
-📧 **security@hivecdn.xyz**
+📧 **security@doolynorth.online**
 
 We follow a 90-day responsible disclosure policy and acknowledge all valid reports within 24 hours.
 
@@ -227,11 +222,11 @@ We follow a 90-day responsible disclosure policy and acknowledge all valid repor
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Hive-CDN/hivecdn/main/assets/logo.png" width="48" alt="HiveCDN"/>
+<img src="https://raw.githubusercontent.com/doolynorth/doolynorth/main/assets/doolynorth-x-logo.png" width="48" alt="doolynorth"/>
 
-**Built by the [HiveCDN](http://hivecdn.xyz) engineering team**
+**Built by the [doolynorth](https://doolynorth.online) engineering team**
 
-[🌐 hivecdn.xyz](http://hivecdn.xyz) &nbsp;·&nbsp; [⭐ Star this repo](https://github.com/Hive-CDN/hivecdn/stargazers) &nbsp;·&nbsp; [🐛 Report a Bug](https://github.com/Hive-CDN/hivecdn/issues)
+[🌐 doolynorth.online](https://doolynorth.online) &nbsp;·&nbsp; [⭐ Star this repo](https://github.com/doolynorth/doolynorth/stargazers) &nbsp;·&nbsp; [🐛 Report a Bug](https://github.com/doolynorth/doolynorth/issues)
 
 <br/>
 
